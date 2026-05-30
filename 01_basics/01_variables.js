@@ -3,6 +3,10 @@ let accountEmail = "dev@gmail.com"
 var accountPass = "1234"
 accountCity = "Jaipur"
 
+/*
+prefer not to use var beacause of issue in block scope and functional scope
+*/
+
 
 // accountId = 870909 we can not do this
 
@@ -10,12 +14,6 @@ accountEmail = "ram@gmail.com"
 accountPass = "122222"
 accountCity  = "Rampur"
 
-
-console.log(accountId);
-console.log(accountEmail);
-console.log(accountPass);
-console.log(accountCity);
-
-
+console.table([accountId, accountEmail, accountPass, accountCity])
 
 
