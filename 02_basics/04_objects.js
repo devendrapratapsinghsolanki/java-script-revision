@@ -8,7 +8,7 @@ tinder.userIsLogin = false;
 
 // console.log(Object.keys(tinder));
 // console.log(Object.values(tinder));
-console.log(tinder.hasOwnProperty('id'))
+// console.log(tinder.hasOwnProperty('id'))
 
 
 
@@ -62,3 +62,13 @@ const user = [
 ]
 
 // console.log(user[0].email);
+
+
+const course = {
+    courseName : "Js in hindi",
+    courseFee : 999,
+    courseInstructor : "Hitesh"
+}
+
+const {courseInstructor : instructor} = course
+console.log(instructor);
