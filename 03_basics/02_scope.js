@@ -39,3 +39,18 @@ if (true){
    
 }
 
+
+
+function addOne (num){
+    return num + 1
+}
+
+
+
+const output = function addTwo(number){
+    return number + 2
+}
+
+console.log(output(5));
+
+
