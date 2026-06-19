@@ -14,8 +14,8 @@ function one(){
     function two (){
         const website = "devendrapratap.in"
 
-        console.log(name);
-        console.log(website);
+        // console.log(name);
+        // console.log(website);
         
         
     }
@@ -25,3 +25,17 @@ function one(){
 }
 
 one()
+
+
+
+if (true){
+    const username = "devendra"
+
+    if (username === "devendra"){
+        const web = "youtube"
+
+        console.log(username + web);
+    }
+   
+}
+
