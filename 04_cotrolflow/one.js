@@ -17,3 +17,13 @@ if (score > 80){
 }
 
 // console.log(`Your score is ${power}`); // This will cause an error because power is not defined outside the if block
+
+
+const userLoggedIn = true;
+const debitCard = true;
+
+const userLoggedInFromGoogle = true;
+
+if (userLoggedIn && debitCard && userLoggedInFromGoogle) {
+    console.log("All conditions are met!");
+}
