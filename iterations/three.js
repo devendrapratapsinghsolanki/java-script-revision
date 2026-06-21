@@ -21,3 +21,6 @@ for (const [key,value] of map){
 
     console.log(`key: ${key}, value: ${value}`);
 }
+
+// for of loop not work with objects, it only works with iterable objects like arrays, strings, maps, sets, etc.
+// If you want to itereate over an object, you can use for in loop or object.keys(), object.values(),or object.entries() methods.
